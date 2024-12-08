@@ -1,0 +1,221 @@
+body {
+    font-family: serif;
+    line-height: 1.5;
+    margin: auto;
+    background-color: rgb(4, 164, 175);
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: center;
+    margin: 15px auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 15px;
+    margin: 20px;
+    background-color: gray;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d2b0e;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7f9600;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+nav ul li a:hover {
+    background-color: rgb(87, 87, 0);
+}
+
+#saved-tests {
+    margin: 20px auto;
+    width: 85%;
+    text-align: left;
+}
+
+#test-container {
+    margin: 20px auto;
+    width: 85%;
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: white;
+}
+
+.test {
+    background-color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.test h3 {
+    color: #333;
+}
+
+#test-creator-section {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #070000;
+    border-radius: 5px;
+    background-color: #0dd1b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#questions-container {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#user-greeting {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 1px solid #0dd1b0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+}
+label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+#login-section {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #070000;
+    border-radius: 5px;
+    background-color: #0dd1b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 24px;
+}
+
+#login-section h3 {
+    text-align: center;
+    margin: 15px auto;
+}
+
+#login-form {
+    text-align: center;
+}
+
+#login-form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#login-username,
+#login-password {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#register-section {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #070000;
+    border-radius: 5px;
+    background-color: #0dd1b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 24px;
+}
+
+#register-section h3 {
+    text-align: center;
+    margin: 15px auto;
+}
+
+#register-form {
+    text-align: center;
+}
+
+#register-form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#register-username,
+#register-password {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+
